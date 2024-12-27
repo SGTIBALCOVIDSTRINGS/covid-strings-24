@@ -114,10 +114,10 @@ chart js
 def gradient
 id=mygradient
 gradientunits=userspaceonuse
-x1=0
-y1=3
-x2=4
-y2=x2(2)+y1
+x1=1
+y1=200
+x2=20
+y2=x2*200
 stop offset=0 stop-color=ff0000
 stop offset=1 stop color=0000ff
 <lineargradient>
