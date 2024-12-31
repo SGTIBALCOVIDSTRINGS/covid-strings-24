@@ -24,6 +24,13 @@ override
 public actionperformed(actionevent e)
 random r=newrandom();
 colorpanel.setbackground(new color(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),(rnextint(13),(rnextint(13),(rnextint(13),(rnextint(13),(rnextint(13)))
+num teams
+total players=players per team
+if players per team=zero
+return zero
+else 
+return math floor total players/players per team
+teamsgrouping=(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)
 buttonpanel.add(optionbutton);
 optionbutton.add actionlistener(new action listener)
 override 
@@ -130,6 +137,11 @@ width=100%
 height=100%
 <fecomponenttransfer>
 <fefunccovidstrings  type=linear slope>=1
+function1=hosptializations and infections
+if function1slope>=1:
+return direct relationship
+else:
+return inverse or no relationship
 transformationlist=[reflection,rotation,translation]
 if  transformation ==reflection y axis:
 shift y axis
@@ -137,10 +149,6 @@ else:
 remain
 if transformation==rotation270 degrees counter -clockwise:
 shift270 degrees -counterclockwise
-else:
-remain
-if transformation ==translation x units:
-shift
 else:
 remain
 if selectedanswer=correct:
@@ -151,4 +159,18 @@ if selectedanswer=not correct
 return false
 else 
 return true
+answer checker
+scanner=new scanner(system.in)
+string correct answer
+string useranswer=scanner.nextline()
+if useranswer.equals((correctanswer))
+system.out.print.in(correct)
+else:
+system.out.printIn(incorrect)
+scanner.close
+check winner:
+if winner==true:
+log(the winner is)
+if winner==false:
+log(no winner yet) 
 return filename
