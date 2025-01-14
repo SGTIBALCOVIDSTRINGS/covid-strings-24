@@ -16,8 +16,8 @@ new  button (change color)
 public fun with graphics(){
 color panel=new j panel();
 add (panel,center )
-jpanel button panel=
-new j panel (flowlayout.center)
+button panel=
+new panel (flowlayout.center)
 buttonpanel.add(randombutton);
 random.button add actionlistener(new action listener)
 override 
@@ -167,7 +167,7 @@ string useranswer=scanner.nextline()
 if useranswer.equals(correctanswer)
 system.out.print.in(correct)
 else:
-system.out.printIn(incorrect)
+system.out.printin(incorrect)
 scanner.close
 check winner:
 if winner==true:
