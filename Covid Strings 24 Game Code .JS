@@ -143,15 +143,6 @@ if function1slope>=1:
 return direct relationship
 else:
 return inverse or no relationship
-transformationlist=[reflection,rotation,translation]
-if  transformation ==reflection y axis:
-shift y axis
-else:
-remain
-if transformation==rotation270 degrees counter -clockwise:
-shift270 degrees -counterclockwise
-else:
-remain
 if selectedanswer=correct:
 return true
 else:
